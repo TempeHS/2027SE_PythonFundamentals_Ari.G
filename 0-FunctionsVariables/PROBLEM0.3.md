@@ -9,49 +9,62 @@ In a file called `faces.py`, implement a function called `convert` that accepts 
 Then, in that same file, implement a function called `main` that prompts the user for input, calls `convert` on that input, and prints the result. You’re welcome, but not required, to prompt the user explicitly, as by passing a `str` of your own as an argument to `input`. Be sure to call `main` at the bottom of your file.
 
 ## Hints
+
 - Recall that `input` returns a `str`, <https://per docs.python.org/3/library/functions.html#input>.
 - Recall that a `str` comes with quite a few methods, per <https://docs.python.org/3/library/stdtypes.html#string-methods>.
 - An emoji is actually just a character, so you can quote it like any `str`, a la `"😐"`. And you can copy and paste the emoji from this page into your own code as needed.
 
 ## Before You Begin
-From the root of your repository execute `cd 0-FunctionsVariables` So your current working directory is ...		
 
-		/0-FunctionsVariables $:
+From the root of your repository execute `cd 0-FunctionsVariables` So your current working directory is ...
+
+    	/0-FunctionsVariables $:
+
 Next execute
 
-		`mkdir faces`
+    	`mkdir faces`
+
 to make a folder called `faces` in your codespace.
 
 Then execute
 
-		`cd faces`
+    	`cd faces`
+
 to change directories into that folder. You should now see your terminal prompt as `/0-FunctionsVariables/faces $`. You can now execute
 
-		`code faces.py`
+    	`code faces.py`
+
 to make a file called `faces.py` where you’ll write your program.
 
 # How to Test
+
 Here’s how to test your code manually. At the `faces/ $` prompt in your terminal: :
 
-1. Run your program with `python faces.py`. Type `Hello :)` and press Enter. Your program should output:
+1.  Run your program with `python faces.py`. Type `Hello :)` and press Enter. Your program should output:
 
-		Hello 🙂
-2. Run your program with `python faces.py`. Type `Goodbye :(` and press Enter. Your program should output:
+        Hello 🙂
 
-		Goodbye 🙁
-3. Run your program with `python faces.py`. Type `Hello :) Goodbye :(` and press Enter. Your program should output:
+2.  Run your program with `python faces.py`. Type `Goodbye :(` and press Enter. Your program should output:
 
-		Hello 🙂 Goodbye 🙁
+        Goodbye 🙁
+
+3.  Run your program with `python faces.py`. Type `Hello :) Goodbye :(` and press Enter. Your program should output:
+
+        Hello 🙂 Goodbye 🙁
 
 # Commit your program to GITHUB
+
 At the `/0-FunctionsVariables/faces $` prompt in your terminal:
 
-		git add -A 
+    	git add -A
+
 Add all changed files in the repository to be committed
 
-		`git commit -m “Upload completed faces.py“`
-Commit all changes in the REPO with the comment “Upload completed faces.py“
-*note: If the file is not complete, adjust the comment to describes what is being commited*
+    	`git commit -m “Upload completed faces.py“`
 
-		`git push` 
+Commit all changes in the REPO with the comment “Upload completed faces.py“
+_note: If the file is not complete, adjust the comment to describes what is being commited_
+
+    	`git push`
+
 Push all changes to the REPO
